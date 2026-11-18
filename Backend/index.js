@@ -14,7 +14,7 @@ app.use(express.json());
 app.get("/", (req, res) => {
   res.send("ShopNest backend is working properly!");
 });
-app.use('api/auth' userRoutes);
+app.use('api/auth' userRoute);
 
 const PORT = process.env.PORT || 5000;
 
